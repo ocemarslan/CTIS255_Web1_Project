@@ -1,0 +1,136 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(1, 226, 226);
+}
+
+#memorytester{
+    display: none;
+}
+
+h1{
+    display: none;
+    color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top:30px;
+    transform: translate(-50%, 0);
+    font-size:80px;
+    letter-spacing: 20px;
+    font-weight: normal;
+}
+
+#frontpage{
+    display: none;
+    padding-top: 30px;
+    border-radius: 15px;
+    background-color: teal;
+    margin:300px auto;
+    width:700px;
+    height: 250px;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+#left img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+}
+
+#middle{
+    text-align: center;
+}
+
+#middle p:nth-of-type(1){
+    color: wheat;
+    font-size: 22px;
+}
+
+#middle p:nth-of-type(2){
+    font-style: italic;
+}
+
+#middle p:nth-of-type(3){
+    font-size: 27px;
+}
+
+#right button{
+    font-size: 30px;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border:none;
+    transition: all ease 1s;
+}
+
+#right button:hover{
+    background-color:rgb(32, 32, 32);
+    color:green;
+}
+
+#memorytester{
+    margin: 20px auto;
+    display: none;
+    position: relative;
+    width:750px;
+    height:750px;
+    border:1px solid black;
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+select{
+    height: 40px;
+    width: 80px;
+    font-size: 30px;
+}
+
+.box{
+    position: absolute;
+    text-align: center;
+    color:rgb(107, 91, 0);
+    background-color: rgb(250, 226, 92);
+    border: 2px dashed gold;
+    border-radius: 20px;
+    font-size: 70px;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.box p{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#message{
+    border: 1px solid gold;
+    border-radius: 20px;;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    z-index: 10;
+    width:500px;
+    height:200px;
+    line-height: 200px;
+    padding:0 30px;
+    margin:200px auto;
+    text-align:center;
+}
+#difficulty{
+    
+    height: 30px;
+    width: 50px;
+    font-size: 18px;
+}
